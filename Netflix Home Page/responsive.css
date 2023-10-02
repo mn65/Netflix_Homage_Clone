@@ -1,0 +1,118 @@
+@media screen and (max-width: 1200px){
+    .header-content h1 {
+        font-size: 40px;
+        
+    }
+}
+
+@media screen and (max-width:1080px){
+    .text-col {
+        flex-basis: 45%;
+        margin-bottom: 20px;
+    }
+    
+    .img-col {
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width:960px){
+    .raw {
+        display: block;
+        padding: 50px 90px;
+    }
+    .features {
+        padding: 50px 25px;
+    }
+
+    .features h2 {
+        font-size: 30px;
+    }
+
+    .features p {
+        font-size: 15px;
+
+    }
+
+    .faq h2 {
+        font-size: 30px;
+
+    }
+
+    .faq {
+        padding: 10px 3%;
+    }
+
+    .footer {
+        padding: 50px 5% 10px;
+    }
+
+    .raw {
+        padding: 40px 0px;
+    }
+
+    .faq small {
+        font-size: 15px;
+    }
+
+    .footer .raw{
+        display: flex;
+    }
+
+    .footer .col {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .header-content h1 {
+        font-size: 35px;
+        
+    }
+
+    .logo {
+        width: 150px;
+        
+    }
+
+    nav button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .header-content h3 {
+        font-size: 15px;
+    }
+
+    .header-content p {
+        font-size: 12px;
+    }
+
+    .email-signup {
+        background: none;
+        display: block;
+        border-radius: 0px;
+    }
+
+    .email-signup input{
+        padding: 15px 30px;
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 4px;
+    }
+
+    .header-content {
+        width: 100%;
+        padding: 10px 8%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .logo {
+        width: 90px;
+    }
+}
+
+
